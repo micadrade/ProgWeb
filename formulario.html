@@ -1,0 +1,68 @@
+
+<html>
+<head>
+    <title>Inscrições</title>
+</head>
+<body>
+  
+<div class="campo"> 
+    <h1 id="titulo">Inscrições para evento de astronomia</h1>     
+</div>
+
+<form>
+    <fieldset class="grupo"> 
+        <div  class="campo">
+            <label for="nome"><strong>Nome completo</strong></label>
+            <input type="text" name="nome" id="nome completo" required>
+        </div>
+
+    </fieldset>
+<div class="campo" >
+    <label for="email"><strong>Email</strong> </label>
+    <input type="email" name="email" id="email" required>
+</div>
+
+<div  class="campo">
+    <label><strong>Qual seu nível de escolaridade?</strong> </label>
+<label>
+    <input type="radio" name="escolaridade" value="Ensinofundamental" checked> Ensino fundamental
+</label>
+<label>
+    <input type="radio" name="escolaridade" value="Ensinomedio"> Ensino médio
+</label>
+<label>
+    <input type="radio" name="escolaridade" value="Ensinosuperior"> Ensino superior
+</label>
+</div>
+<div  class="campo">
+    <label for="assuntos"><strong>Quais desses assuntos mais te interessa?</strong></label>
+        <select id="assuntos">
+            <option selected disabled value="">Selecione</option>
+            <option>Constelações</option>
+            <option>Exoplanetas</option>
+            <option>Estrelas</option>
+            <option>Outro</option>
+        </select>
+    
+</div>
+
+<fieldset class="grupo">
+    <div  class="campo">
+        <label><strong>Quais dessas olimpíadas você já participou?</strong></label> <br><br>
+        <input type="checkbox" id="olimpiada1" name="olimpiada1" value="OBA">
+        <label for="olimpiada1">OBA</label>
+        <input type="checkbox" id="olimpiada2"  name="olimpiada2" value="OLAA">
+        <label for="olimpiada2">OLAA</label>
+        <input type="checkbox" id="olimpiada3"  name="olimpiada3" value="IAOO">
+        <label for="olimpiada3">IAOO</label>
+        <input type="checkbox" id="olimpiada4"  name="olimpiada4" value="IAO">
+        <label for="olimpiada4">IAO</label>
+
+    </div>
+</fieldset>
+
+<button class="botao" type="submit">Concluído</button>
+</form>
+
+</body>
+</html>
